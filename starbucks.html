@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body >
+    <nav class="p-3">
+      <div class="navbar container-fluid">
+        <div class="nav-right text-center ps-3 d-flex">
+          <img
+            class="rounded-circle"
+            src="./assets/logo1.jpg"
+            width="50px"
+            height="50px"
+            alt="logo of starbucks"
+          />
+          
+          <!-- Menu links -->
+          <a class="ps-4 menu-link" href="#">MENU</a>
+          <a class="ps-4 menu-link" href="#">REWARDS</a>
+          <a class="ps-4 menu-link" href="#">GIFT CARDS</a>
+        </div>
+        
+        <div class="nav-left pe-4 ">
+          <a class="pe-3 pt-2 pe-3 text-black text-decoration-none" href="#">
+            <i class="bx bxs-location-plus text-black"></i> Find a store</a
+          >
+          <button class="btn btn-light rounded-pill border border-dark ">
+            Sign in
+          </button>
+          <button class="btn btn-dark rounded-pill font-weight-bold">
+            Join now
+          </button>
+        </div>
+
+        <!-- Hamburger icon for smaller screens -->
+        <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+          <i class="bx bx-menu"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- one -->
+    <section>
+      <div class="container-fluid g-0 mb-4 gx-0">
+        <div class="row w-100 m-0">
+          
+          <!-- Image Container -->
+          <div class="col-lg-6 col-md-6 col-12 p-0">
+            <img src="./assets/one.webp" class="w-100" style="height: auto;" />
+          </div>
+          
+          <!-- Content Container -->
+          <div class="one-cnt text-center col-lg-6 col-md-6 col-12 p-0 d-flex flex-column justify-content-center">
+            <h1 class="display-5 fw-bold">A crisp new</h1>
+            <h1 class="display-5 fw-bold">twist on cozy</h1>
+            <p class="fs-5 p-4">
+              Sip and say ahh with an uplifting new Iced Apple Crisp Nondairy Cream Chai, with oatmilk and silky cold foam.
+            </p>
+            <button type="submit" class="btn btn-transparent border-dark rounded-pill px-4 mx-auto ">
+              Order now
+            </button>
+          </div>
+      
+        </div>
+      </div>
+      
+      <div class="container-fluid gx-0  mb-4 row w-100">
+        
+          <!-- Image div -->
+          <div class="col-lg-6 col-md-6 col-12 order-0 order-md-1  ">
+            <img src="./assets/two.webp" width="100%" height ="100%"alt="Yays for fall days" />
+          </div>
+      
+          <!-- Text Content div -->
+          <div class="two-cnt text-center text-white col-lg-6 col-md-6 col-12 order-1 order-md-0 ">
+            <h1 class="display-5 fw-bold">Yays for fall days</h1>
+            <p class="fs-5 p-4">
+              Join for September offers like Triple Star Tuesdays and Starbucks
+              Run Saturdays (2 drinks for $10 or 4 for $20)*.
+            </p>
+            <button
+              type="submit"
+              class="btn btn-transparent border-white rounded-pill text-white"
+            >
+              Join Starbucks Rewards
+            </button>
+          </div>
+       
+      </div>
+      <!--  -->
+     
+      <div class="container-fluid gx-0 mb-4">
+        <div class="row w-100 m-0 d-flex flex-column flex-lg-row">
+          
+          <!-- Image Container -->
+          <div class="col-lg-6 col-12 p-0">
+            <img src="./assets/three.webp" class="w-100" style="height: auto;" />
+          </div>
+          
+          <!-- Content Container -->
+          <div class="three-cnt text-center text-white col-lg-6 col-12 p-4 d-flex flex-column justify-content-center">
+            <h1 class="display-5 fw-bold">Find your fall</h1>
+            <p class="fs-5 p-4">
+              Embrace fall in full flavor with a Pumpkin Spice Latte, Apple Crisp Oatmilk Macchiato or Chai Latte.
+            </p>
+            <button type="submit" class="btn btn-outline-light rounded-pill px-4 mx-auto">
+              Order now
+            </button>
+          </div>
+      
+        </div>
+      </div>
+      
+      <!--  -->
+      <div class="container-fluid gx-0 mb-4">
+        <div class="row w-100 m-0 d-flex flex-column flex-lg-row">
+          
+          <!-- Content Container -->
+          <div class="four-cnt text-center text-white col-lg-6 col-12 p-4 d-flex flex-column justify-content-center">
+            <h1 class="display-5 fw-bold">Your treat awaits</h1>
+            <p class="fs-5">
+              Fall in love with Starbucks® Rewards member perks, like a free drink with qualifying purchase during your first week. Valid for one-time use.**
+            </p>
+            <button type="submit" class="btn btn-outline-light rounded-pill px-4 mx-auto">
+              Join now
+            </button>
+          </div>
+          
+          <!-- Image Container -->
+          <div class="col-lg-6 col-12 p-0 d-flex justify-content-center">
+            <img src="./assets/four.webp" class="w-100" style="max-height: 380px;" alt="Fall Starbucks treat" />
+          </div>
+      
+        </div>
+      </div>
+      
+      <!--  -->
+      <div class="container-fluid gx-0 mb-4">
+        <div class="row w-100 m-0 d-flex flex-column flex-lg-row">
+          
+          <!-- Image Container -->
+          <div class="col-lg-6 col-12 p-0">
+            <img src="./assets/five.jpg" class="w-100" style="height: auto;" alt="Fall treat image" />
+          </div>
+          
+          <!-- Content Container -->
+          <div class="five-cnt text-center col-lg-6 col-12 p-4 d-flex flex-column justify-content-center">
+            <h1 class="display-5 fw-bold">A crisp new</h1>
+            <h1 class="display-5 fw-bold">Spicefully yours</h1>
+            <p class="fs-5 p-4">
+              A delightful fall treat, the Pumpkin Cream Cheese Muffin is back and ready to pair with your favorite beverage.
+            </p>
+            <button type="submit" class="btn btn-outline-dark rounded-pill px-4 mx-auto">
+              Order now
+            </button>
+          </div>
+      
+        </div>
+      </div>
+      
+      <!--  -->
+    </section>
+    <div class="para col-lg-12 col-sm-12 p-5 ">
+      <p>*Triple Star Day Tuesday: Offer valid 9/3, 9/10, 9/17 & 9/24 at participating stores. Must activate this offer to earn triple Stars on eligible transactions made during the offer window. Must pay using your registered Starbucks Card or linked payment method or by scanning your Starbucks app prior to checkout in order to earn Stars. Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads. Some restrictions apply. Select stores redeem 200 Stars for free food or drink items only. For details and earn rates, visit <a href="#">https://www.starbucks.com/terms.</a>
+        <br><br>
+
+        Starbucks Run Saturday: Must join Starbucks Rewards by noon PT on Friday prior to offer. Valid 9/7, 9/14, 9/21 & 9/28 for 2 menu-sized handcrafted drinks for $10 or 4 menu-sized handcrafted drinks for $20 plus applicable tax at participating stores. Limit one offer coupon per member. Each coupon can be used once but in separate transactions. Customizations cost extra. Excludes canned, bottled beverages, coffee traveler, alcohol and delivery services. Cannot be combined with other offers or discounts.
+        <br><br><br><br>
+        **Valid only for new Starbucks Rewards members for 7 days from sign up. Offer good at participating stores for a handcrafted menu-sized beverage with eligible purchase ($8 max value). Taxes not included. Excludes alcohol, Starbucks Card and Starbucks Card reloads. Limit one per member. Cannot be combined with other offers or discounts. Product availability varies by store. Excludes delivery services. Sign up from 8/22/2024 - 9/22/2024 to be eligible.
+        <br><br><br><br>
+        ***Valid for Starbucks Rewards members at participating stores on handcrafted beverage purchases only (max 3x per day).</p>
+        <br><br>
+    </div>
+    <div class="items shadow p-4 mb-4  bg-white d-flex " >
+      
+      <div  class="">
+        <h5>About us</h5>
+        <a href="">Our company</a>
+        <a href="">Our coffee</a>
+        <a href="">Stories and news</a>
+        <a href="">Starbucks archive</a>
+        <a href="">Investor relations</a>
+        <a href="">Customer service</a>
+        <a href="">Contact us</a>
+      </div>
+      <div>
+        <h5>Careers</h5>
+        <a href="">Culture and values</a>
+        <a href="">Inclusion diversity and equity</a>
+        <a href="">college achievement plan</a>
+        <a href="">U.S.Carreers</a>
+        <a href="">Alumni community</a>
+        <a href="">International carreers</a>
+      </div>
+    
+    <div>
+      <h5>Social impact</h5>
+      <a href="">People</a>
+      <br>
+      <a href="">Planet</a>
+      <a href="">Environmental and  impact Reporting</a>
+      
+    </div>
+    <div>
+      <h5>For business partners </h5>
+      <a href="">Landlord support center</a>
+      <a href="">Suppliers</a>
+      <a href="">Corporate gift card sales</a>
+      <a href="">Office and food service coffee</a>
+      
+    </div>
+    <div>
+      <h5>Order and pickup</h5>
+      <a href="">Order on the app</a>
+      <a href="">Order on the web</a>
+      <a href="">Delivery</a>
+      <a href="">Order and pickup options</a>
+      <a href="">explore and find coffe for home</a>
+      
+    </div>
+  </div>
+
+ 
+  
+  <footer class="footer p-5">
+    
+      <div>
+        <i class=' bx bxl-spotify fs-1 ' ></i>
+        <i class='bx bxl-facebook-circle fs-1 '></i>
+        <i class='bx bxl-pinterest fs-1 ' ></i>
+        <i class='bx bxl-instagram fs-2 rounded-circle bg-black text-white'  ></i>
+        <i class='bx bxl-youtube fs-2 rounded-circle bg-black text-white '></i>
+        <i class='bx bxl-twitter fs-2 rounded-circle bg-black text-white'></i>
+      </div>
+    
+    <div class="footer-2 ">
+      <a href="">Privacy notice</a>
+      <a href="">Consumer health privacy notice</a>
+      <a href="">Terms of use</a>
+      <a href="">Do not share my personal information</a>
+      <a href="">CA supply chain act</a>
+      <a href="">Accessibility</a>
+      <a href="">Cookie preference</a>
+    </div>
+    <br>
+    <p> © 2024 Starbucks Coffee Company. All rights reserved. </p>
+  </footer>
+  <script>
+    function toggleMenu() {
+      document.querySelector('.navbar').classList.toggle('menu-open');      
+    }
+  </script>
+  
+  </body>
+</html>
